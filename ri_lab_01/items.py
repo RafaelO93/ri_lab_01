@@ -18,6 +18,7 @@ class RiLab01Item(scrapy.Item):
     text = scrapy.Field()
     url = scrapy.Field()
 
+
 class RiLab01CommentItem(scrapy.Item):
     id_article = scrapy.Field()
     date = scrapy.Field()
